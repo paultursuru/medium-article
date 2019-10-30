@@ -1,0 +1,51 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Big Shoulders Text', cursive;
+}
+
+h1 {
+  font-size: 45px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h4 {
+  font-size: 20px;
+  font-style:italic;
+  color: rgba(50, 50, 50, 0.7);
+  padding: 20px 0;
+}
+p {
+  font-size: 300;
+}
+
+.banner {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  background-image: url(https://source.unsplash.com/random/1200x600);
+  background-size: cover;
+  padding: 120px 0;
+  font-size: 900;
+  color: white;
+}
+
+.container {
+  width: 75%;
+  margin: 20px auto;
+}
+
+.citation {
+  margin-left: 50%;
+  color: rgba(0,240,0,1);
+  font-style:italic;
+  font-size: 18px;
+}
+.citation:hover {
+  font-style:italic;
+  font-size: 18px;
+  background-color: rgba(0,200,0,0.3);
+}
